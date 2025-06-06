@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "568a45b1-4130-49e4-bdef-8ebb159484af",
+		"name": "premier-league-simulation-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45297140",
+		"_collection_link": "https://ipekhondi.postman.co/workspace/Ipek-Hondi's-Workspace~da6f514d-2d7c-4646-89bb-d919a5e3e287/collection/45297140-568a45b1-4130-49e4-bdef-8ebb159484af?action=share&source=collection_link&creator=45297140"
+	},
+	"item": [
+		{
+			"name": "Initialize",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/league/initialize",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"league",
+						"initialize"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Next Week",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/league/play-next",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"league",
+						"play-next"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Table",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/league/table",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"league",
+						"table"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
